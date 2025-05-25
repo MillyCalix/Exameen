@@ -1,0 +1,120 @@
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #1bc681;
+      color: #ffff8c;
+    }
+
+    header {
+      background: #e3d758;
+      color: white;
+      text-align: center;
+      padding: 30px 10px;
+    }
+
+    main {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .contenido {
+      flex: 3;
+      background: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .contenido h2 {
+      color: #b62d2d;
+    }
+
+    .contenido img {
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .lateral {
+      flex: 1.3;
+      background: #fff7e0;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .lateral h3 {
+      color: #b62d2d;
+      margin-top: 0;
+    }
+
+    footer {
+      background: #b62d2d;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+
+    /* Menú que nos dio la Profesora Yadira*/
+    .menu, .menu ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .menu > li {
+      background: #ffeb7a;
+      margin-bottom: 5px;
+      border-radius: 5px;
+    }
+
+    .menu > li > a {
+      display: block;
+      padding: 10px;
+      color :#b62d2d;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .menu li ul {
+      display: none;
+      background: #fff;
+      border-radius: 5px;
+      padding: 5px;
+    }
+
+    .menu li:hover ul {
+      display: block;
+    }
+
+    .menu li ul li {
+      margin: 5px 0;
+    }
+
+    .menu li ul li a {
+      padding: 5px 10px;
+      display: block;
+      color: #333;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    img {
+    float: left;
+    margin-right: 10px;
+    }
+    ul {
+    overflow: hidden;
+}
+    .menu li ul li a:hover {
+      background: #f4d48e;
+    }
+    @media (max-width: 768px) {
+    form {
+        padding: 10px;
+    }
+}
+
+  </style>
